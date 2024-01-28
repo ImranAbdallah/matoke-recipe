@@ -15,19 +15,25 @@ html{
 }
  
 .main-content{ 
-    width: 800px;
+    width: 1000px;
+    height: auto;
     background-color: bisque;
-    padding: 4px 18px;
+    padding: 4px 8px;
     border: 20px solid navajowhite;
     margin: 10px 20px;
-    display: inline-block;
+    display: flex;
+    flex: 1;
 }
 
 h1, h2 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: auto;
     font-weight: normal;
-    text-align: center;
+    /* text-align: center; */
+    padding-right: 5pk;
+    margin-right: 2px;
+    display: flex;
+    border: 1px;
     color: black;
     background-color: bisque;
 }
@@ -38,13 +44,18 @@ img{
     margin: 0 auto;
     border: 2px solid green; */
     vertical-align: top;
-    display: inline-block;
+    display: block;
 }
 .subsection{
-    width: 800px;
+    width: 1000px;
+    height: auto;
     background-color: blanchedalmond;
-    padding: 5px 18px;
+    padding: 4px 8px;
     border: 20px solid navajowhite;
     margin: 10px 20px;
-    display: inline-block;
+    display: flex;
+}
+ ul ol li{
+    display: flex;
+    margin-right: 3px;
 }
